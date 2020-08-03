@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "jsdom-quokka-plugin"
+  ],
+  "babel": {
+    "ts": true,
+    "plugins": [
+      "@babel/plugin-transform-modules-commonjs"
+    ],
+    "presets": [
+      [
+        "taro",
+        {
+          "framework": "react",
+          "ts": true
+        }
+      ]
+    ]
+  }
+}
